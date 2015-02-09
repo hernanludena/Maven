@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+
+
+<h:head>
+	<title>Prueba de Proyecto</title>
+</h:head>
+
+<body>
+	<h:form>
+		<h1>Insertar Usuario</h1>
+		<p:inputText value="#{clientMB.nombre}"></p:inputText>
+		<p:commandButton action="#{clientMB.guardarClient()}"
+			value="CrearCliente"></p:commandButton>
+
+
+		<!--  <h:commandButton value="Click me" />
+	<p:editor value = ""/>
+	<p:calendar></p:calendar>-->
+	</h:form>
+</body>
+
+</html>
